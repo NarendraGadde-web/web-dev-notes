@@ -1,0 +1,41 @@
+body {
+    background-color: #8aeeff;
+}
+button {
+    background-color: #b03bad; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#first {
+    background-color: #0d2cf3;
+    padding: 40px;
+    margin: 40px;
+}
+
+.all {
+    background-color: #f30d0d;
+    padding: 3px;
+    margin: 20px;
+}
+div, p {
+    border: black 10px solid;
+    background-color: #f3bd0d;
+    padding: 20px;
+    margin: 20px;
+}
+abbr[title="Hyper Text Markup Language"] {
+    color: #f30d0d;
+}
+
+#first > p {
+    color: #f30d0d;
+}
+
+.sib + p {
+    color: #520df3;
+}
